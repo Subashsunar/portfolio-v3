@@ -1,3 +1,8 @@
+.space {
+  height: 90px;
+  background-color: #474e5d;
+}
+
 .main {
   display: flex;
   justify-content: center;
@@ -37,6 +42,7 @@ p {
 
 .name {
   margin-top: 9px;
+  padding-left: 7px;
   height: 35px;
   width: 300px;
   border: 1px solid grey;
@@ -44,28 +50,39 @@ p {
 }
 
 #message {
-    height: 95px;
-    border: 1px solid grey;
+  height: 95px;
+  border: 1px solid grey;
 }
 
 #button {
-    margin-top: 10px;
-    border: 1px solid grey;
-    border-radius: 4px;
-    background-color: #474e5dbb;
-    color: white;
-    font-size: 18px;
-    width: 300px;
-    height: 35px;
+  margin-top: 10px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  background-color: #474e5dbb;
+  color: white;
+  font-size: 18px;
+  width: 300px;
+  height: 35px;
 }
 
 #button:hover {
-    cursor: pointer;
-    background-color: rgb(29, 67, 73);
-    color: rgba(247, 173, 36, 0.637);
+  cursor: pointer;
+  background-color: rgb(29, 67, 73);
+  color: rgba(247, 173, 36, 0.637);
 }
 
+@media (max-width: 768px) {
+    .space {
+      height: 60px;
+      background-color: #474e5d;
+    }
+  }
+
 @media (max-width: 668px) {
+  .space {
+    height: 90px;
+    background-color: #474e5d;
+  }
   .label-box {
     width: 350px;
   }
@@ -76,7 +93,8 @@ p {
     width: 300px;
   }
 
-  .name, #button {
+  .name,
+  #button {
     width: 275px;
   }
 }

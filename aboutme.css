@@ -36,11 +36,11 @@ body {
     background-color: #474e5d;
     color: white;
   }
-  
+
   .container {
     padding: 0 16px;
   }
-  
+
   .container::after,
   .row::after {
     content: "";
@@ -51,7 +51,7 @@ body {
   .title {
     color: grey;
   }
-  
+
   .link {
     border-radius: 7px;
     font-size: 23px;
@@ -65,30 +65,37 @@ body {
     cursor: pointer;
     width: 100%;
   }
-  
+
   .link a {
     color: #474e5d;
     text-decoration: none;
   }
-  
+
   .link:hover {
     background-color: #555;
   }
-  
+
   .link:hover a {
     color: white;
   }
-  
+
   .technology {
     font-size: 20px;
     font-weight: bold;
     color: #474e5d;
   }
-  
+
   .anchor {
     text-decoration: none;
   }
-  
+
+  @media (max-width: 768px) {
+    .space {
+      height: 60px;
+      background-color: #474e5d;
+    }
+  }
+
   @media screen and (max-width: 668px) {
     .space {
       height: 60px;
@@ -100,10 +107,4 @@ body {
     }
   }
   
-  @media (max-width: 768px) {
-    .space {
-      height: 60px;
-      background-color: #474e5d;
-    }
-  }
   
