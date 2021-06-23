@@ -88,7 +88,7 @@ body {
   .anchor {
     text-decoration: none;
   }
-
+  
   @media (max-width: 768px) {
     .space {
       height: 60px;
@@ -98,7 +98,7 @@ body {
 
   @media screen and (max-width: 668px) {
     .space {
-      height: 60px;
+      height: 90px;
       background-color: #474e5d;
     }
     .column {
